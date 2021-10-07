@@ -4,13 +4,13 @@ import './App.css';
 import { RecoilRoot } from 'recoil';
 
 //components
-import { MainPage } from './MainPage';
+import { TodoList } from './TodoList';
 
 function App() {
   return (
     <RecoilRoot>
       <h1>Recoil</h1>
-      <MainPage />
+      <TodoList />
     </RecoilRoot>
   );
 }
